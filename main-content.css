@@ -1,0 +1,16 @@
+#main-content {
+  display: grid;
+  gap: 2rem;
+
+  max-width: 50rem;
+  padding: 4rem;
+  margin: auto;
+}
+
+#title {
+  text-align: center;
+}
+
+#title p {
+  font-weight: bold;
+}

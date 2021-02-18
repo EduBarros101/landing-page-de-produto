@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling */
+
+:root {
+  scroll-behavior: smooth;
+
+  --color1: #7579e7;
+  --color2: #9ab3f5;
+  --color3: #a3d8f4;
+  --color4: #b9fffc;
+  --color5: #fff;
+  --color6: #000;
+  --confirmation-color: #61b15a;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  color: var(--color1);
+}

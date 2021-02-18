@@ -1,0 +1,41 @@
+#about {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "a b b"
+    "d d c"
+    "e f f";
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+#about img {
+  width: 100%;
+}
+
+#smart-img {
+  grid-area: a;
+}
+
+#smart-p {
+  grid-area: b;
+  align-self: center;
+}
+
+#reliable-img {
+  grid-area: c;
+}
+
+#reliable-p {
+  grid-area: d;
+  align-self: center;
+}
+
+#available-img {
+  grid-area: e;
+}
+
+#available-p {
+  grid-area: f;
+  align-self: center;
+}
