@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main-content.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>WBarros Refrigeração</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="http://via.placeholder.com/800x100?text=WBarros+Refrigeração"
+        alt="Placeholder logo"
+      />
+
+      <nav id="nav-bar">
+        <ul class="nav-container">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Produto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <div id="title">
+        <h1>WBarros Refrigeração</h1>
+        <p>Sua Solução em Refrigeração Comercial e Residencial</p>
+      </div>
+
+      <div id="about">
+        <div id="smart-img">
+          <img src="https://via.placeholder.com/200x150" alt="" />
+        </div>
+
+        <p id="smart-p">
+          Temos toda a capacitação necessária para atender as suas necessidades,
+          sejam elas no seu comércio ou em sua residência.
+        </p>
+
+        <div id="reliable-img">
+          <img src="https://via.placeholder.com/200x150" alt="" />
+        </div>
+
+        <p id="reliable-p">
+          A procedência dos nossos equipamentos é garantida e atestada. Só
+          trabalhamos com equipamentos confiáveis.
+        </p>
+
+        <div id="available-img">
+          <img src="https://via.placeholder.com/200x150" alt="" />
+        </div>
+
+        <p id="available-p">
+          Estaremos sempre disponíveis através dos nossos canais de atendimento.
+          Sempre ao seu alcance!
+        </p>
+      </div>
+
+      <div id="product">
+        <div id="video-container">
+          <p>
+            Você sabe como funcionam os processes de refrigeração? Veja só como
+            é interessante!
+          </p>
+          <div id="video-setup">
+            <iframe
+              id="video"
+              src="https://www.youtube.com/embed/VHrfwDax3GA"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+
+        <div id="prices-container">
+          <p>Encontre equipamentos para suas necessidades específicas!</p>
+
+          <div id="equip-cards">
+            <div id="equip-card1" class="cards">
+              <p class="equip-name">Nome Equipamento-01</p>
+              <img
+                src="https://via.placeholder.com/200?text=EQUIPAMENTO01"
+                alt="Equipment_01"
+              />
+              <p class="price">Valor do Equipamento-01</p>
+            </div>
+            <div id="equip-card2" class="cards">
+              <p class="equip-name">Nome Equipamento-02</p>
+              <img
+                src="https://via.placeholder.com/200?text=EQUIPAMENTO02"
+                alt="Equipment_02"
+              />
+              <p class="price">Valor do Equipamento-02</p>
+            </div>
+            <div id="equip-card3" class="cards">
+              <p class="equip-name">Nome Equipamento-03</p>
+              <img
+                src="https://via.placeholder.com/200?text=EQUIPAMENTO03"
+                alt="Equipment_03"
+              />
+              <p class="price">Valor do Equipamento-03</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <p>
+          Quer saber mais sobre como podemos te ajudar? Deixe seus contatos
+          abaixo!
+        </p>
+
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="POST"
+        >
+          <div id="contact-info">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Qual o seu nome?"
+              required
+            />
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="e-mail para contato"
+              required
+            />
+
+            <input
+              type="tel"
+              name="telefone"
+              id="phone"
+              minlength="10"
+              maxlength="11"
+              placeholder="Telefone para contato"
+              required
+            />
+
+            <input id="submit" type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
