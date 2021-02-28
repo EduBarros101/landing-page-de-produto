@@ -1,3 +1,7 @@
+#contact {
+    padding: 0 15rem 0 15rem;
+}
+
 #contact form {
-  display: grid;
+    display: grid;
 }

@@ -1,16 +1,19 @@
 #main-content {
-  display: grid;
-  gap: 2rem;
+    display: grid;
+    gap: 2rem;
 
-  max-width: 50rem;
-  padding: 4rem;
-  margin: auto;
+    /* max-width: 50rem; */
+    padding: 4rem 0 4rem 0;
+    margin: auto;
 }
 
 #title {
-  text-align: center;
+    text-align: center;
+    padding-bottom: 11;
+
+    padding-bottom: 2rem;
 }
 
 #title p {
-  font-weight: bold;
+    font-weight: bold;
 }
