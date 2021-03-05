@@ -2,9 +2,7 @@
     display: grid;
     gap: 2rem;
 
-    /* max-width: 50rem; */
     padding: 4rem 0 4rem 0;
-    margin: auto;
 }
 
 #title {
