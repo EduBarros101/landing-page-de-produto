@@ -1,14 +1,17 @@
 #about {
     display: grid;
-    gap: 10px;
+    gap: 2rem;
     grid-template-areas:
         "a b b"
         "d d c"
         "e f f";
     grid-template-columns: 1fr 1fr 1fr;
 
-    padding: 0 15rem 0 15rem;
+    /* Why isn't 'max-width' working? It's working just like 'width' and just sets a fixed width for my section. I want it to be responsive, so I could resize the window and see it working propperly. I would appretiate any help.*/
+    max-width: 800px;
+
     justify-self: center;
+    margin: auto;
 }
 
 #about img {

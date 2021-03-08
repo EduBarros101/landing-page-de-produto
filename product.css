@@ -1,8 +1,6 @@
 #product {
     display: grid;
     gap: 2rem;
-
-    /* padding: 0 15rem 0 15rem; */
 }
 
 #video-section {
