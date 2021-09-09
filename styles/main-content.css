@@ -1,13 +1,9 @@
 #main-content {
-    display: grid;
-    gap: 2rem;
-
-    padding: 4rem 0 4rem 0;
+    padding: 2rem 0 2rem 0;
 }
 
 #title {
     text-align: center;
-    padding-bottom: 11;
 
     padding-bottom: 2rem;
 }

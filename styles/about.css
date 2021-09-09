@@ -7,8 +7,8 @@
         "e f f";
     grid-template-columns: 1fr 1fr 1fr;
 
-    padding: 0 15rem 0 15rem;
-    justify-self: center;
+    max-width: 800px;
+    margin: auto;
 }
 
 #about img {
