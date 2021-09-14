@@ -1,7 +1,8 @@
 #product {
-    /* display: grid;
-    gap: 2rem; */
+    display: grid;
 }
+
+/* Video section and setup */
 
 #video-section {
     box-shadow: 0 0 10px gray;
@@ -10,6 +11,9 @@
 }
 
 #video-container {
+    display: grid;
+    gap: 1rem;
+
     max-width: 800px;
     margin: auto;
 }
@@ -31,8 +35,15 @@
     height: 100%;
 }
 
+/* Prices section and equipment cards */
+
+#prices-section {
+    padding: 1rem 0;
+}
+
 #prices-container {
     display: grid;
+
     gap: 1rem;
 
     max-width: 800px;
@@ -47,6 +58,8 @@
 #equip-cards {
     display: grid;
     gap: 1rem;
+
+    max-width: 800px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
