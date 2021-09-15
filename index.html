@@ -113,37 +113,45 @@
             </section>
 
             <section id="contact">
-                <p>Gostaria de saber mais sobre como podemos te ajudar? Deixe seus contatos abaixo!</p>
+                <div id="contact-container">
+                    <p>Gostaria de saber mais sobre como podemos te ajudar? Deixe seus contatos abaixo!</p>
 
-                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-                    <div id="form-inputs-container">
-                        <div id="form-contact-info">
-                            <input type="text" name="name" id="name" placeholder="Qual o seu nome?" required />
+                    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                        <div id="form-inputs-container">
+                            <div id="form-contact-info">
+                                <input type="text" name="name" id="name" placeholder="Qual o seu nome?" required />
 
-                            <input type="email" name="email" id="email" placeholder="e-mail para contato" required />
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    placeholder="e-mail para contato"
+                                    required
+                                />
 
-                            <input
-                                type="tel"
-                                name="telefone"
-                                id="phone"
-                                minlength="10"
-                                maxlength="11"
-                                placeholder="Telefone para contato"
-                                required
-                            />
+                                <input
+                                    type="tel"
+                                    name="telefone"
+                                    id="phone"
+                                    minlength="10"
+                                    maxlength="11"
+                                    placeholder="Telefone para contato"
+                                    required
+                                />
+                            </div>
+
+                            <div id="form-contact-message">
+                                <textarea
+                                    name="mensagem"
+                                    id="message"
+                                    placeholder="Gostaria de deixar alguma mensagem?"
+                                ></textarea>
+                            </div>
                         </div>
 
-                        <div id="form-contact-message">
-                            <textarea
-                                name="mensagem"
-                                id="message"
-                                placeholder="Gostaria de deixar alguma mensagem?"
-                            ></textarea>
-                        </div>
-                    </div>
-
-                    <input id="submit" type="submit" value="Enviar" />
-                </form>
+                        <input id="submit" type="submit" value="Enviar" />
+                    </form>
+                </div>
             </section>
         </main>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
