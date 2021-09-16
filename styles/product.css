@@ -18,6 +18,13 @@
     margin: auto;
 }
 
+#video-container > p {
+    text-align: center;
+    font-weight: bold;
+
+    margin: 0.5rem;
+}
+
 #video-setup {
     position: relative;
     overflow: hidden;
@@ -53,6 +60,8 @@
 #prices-container > p {
     text-align: center;
     font-weight: bold;
+
+    margin: 0.5rem;
 }
 
 #equip-cards {
