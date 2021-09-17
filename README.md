@@ -6,4 +6,4 @@ Projeto de Landing Page para prática e estudo. Fique à vontade para contribuir
 
 O projeto segue os requisitos mínimos necessários do history e está pronto para ser enviado para validação, mas ainda pode receber melhorias. Por exemplo, a barra de navegação não está otimizada para dispositivos móveis.
 
-Vale mencionar que não achei confortável a visualização em smartiphones.
+Vale mencionar que não achei confortável a visualização em smartphones.
